@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#38a4b2"
+    >
+    <com.gcy.view.TitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/fan_text"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:layout_height="120dp"
+            android:text="风扇转速"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+            <SeekBar
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/fan_seekBar"
+                android:max="100" />
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/fan_tips"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="160dp" />
+        <Button
+            android:id="@+id/fan_save"
+            android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/btn_blue_selector"
+            android:textSize="20sp"
+            android:text="确  定"/>
+    </LinearLayout>
+
+</LinearLayout>

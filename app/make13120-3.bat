@@ -1,0 +1,2 @@
+@echo off
+copy /b/y "D:\Android\smartHome\gstreamerHome\share\gst-android\ndk-build\androidmedia\GstAhcCallback.java" "src\org\freedesktop\gstreamer\androidmedia\GstAhcCallback.java" > NUL &&   copy /b/y "D:\Android\smartHome\gstreamerHome\share\gst-android\ndk-build\androidmedia\GstAmcOnFrameAvailableListener.java" "src\org\freedesktop\gstreamer\androidmedia\GstAmcOnFrameAvailableListener.java" > NUL &&  echo Done cp

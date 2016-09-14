@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="设备:"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="设备值:"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/activity_myappliance_item_appliance_name"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="温度"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:padding="10dp"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:id="@+id/activity_myappliance_item_appliance_value"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="20"/>
+                <TextView
+                    android:id="@+id/activity_myappliance_item_appliance_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="℃"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="是否可控:"/>
+            <TextView
+                android:padding="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="状态:"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/activity_myappliance_item_appliance_regulation"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="否"/>
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/activity_myappliance_item_appliance_status"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="正常"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
